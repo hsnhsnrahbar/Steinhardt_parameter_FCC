@@ -6,7 +6,7 @@ import pandas as pd
 import openpyxl
 import cantera as ct
 import os
-import ch_sol
+#import ch_sol
 
 
 
