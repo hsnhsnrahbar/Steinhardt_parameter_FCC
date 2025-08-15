@@ -7,7 +7,7 @@ import openpyxl
 import cantera as ct
 import os
 #import ch_sol
-
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 #zxczxczxczx
 #11111111111111111111111111111111111111111111111111111111111111111111
 # import chemical_kinetics_solver  # Commented out as it's not a standard library
@@ -367,6 +367,7 @@ if __name__ == "__main__":
     print(f"Growth rate range (dp=15nm): {growth_rates_main.min():.2e} - {growth_rates_main.max():.2e} m/s")
 
     print(f"Growth rate bounds: {growth_rates_min.min():.2e} - {growth_rates_max.max():.2e} m/s")
+
 
 
 
