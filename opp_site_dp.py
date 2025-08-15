@@ -264,7 +264,7 @@ def plot_pressure_vs_growth_rate():
     plt.figure(figsize=(12, 12*6./8.18))
     plt.rcParams['font.family'] = 'Calibri'
     plt.rcParams['font.size'] = 24
-    
+    #################################################
     # Add shaded area for particle diameter range
     plt.fill_between(pressure_range, growth_rates_min, growth_rates_max,
                      color='#15C5C5', alpha=0.2, label=f'dp = 5-20 nm range')
@@ -367,3 +367,4 @@ if __name__ == "__main__":
     print(f"Growth rate range (dp=15nm): {growth_rates_main.min():.2e} - {growth_rates_main.max():.2e} m/s")
 
     print(f"Growth rate bounds: {growth_rates_min.min():.2e} - {growth_rates_max.max():.2e} m/s")
+
