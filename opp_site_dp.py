@@ -14,7 +14,7 @@ import ch_sol
 
 # Uncomment this line if you have the chemical_kinetics_solver module
 # gas = ct.Solution('FFCM2.yaml') 
-
+##
 # Constants and parameters
 H_diameter = 66e-12
 C_diameter = 154e-12
@@ -365,4 +365,5 @@ if __name__ == "__main__":
     print("\nAnalysis complete!")
     print(f"Pressure range: {pressure_range[0]:.0f} - {pressure_range[-1]:.0f} Pa")
     print(f"Growth rate range (dp=15nm): {growth_rates_main.min():.2e} - {growth_rates_main.max():.2e} m/s")
+
     print(f"Growth rate bounds: {growth_rates_min.min():.2e} - {growth_rates_max.max():.2e} m/s")
